@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sticky {
+    height: 6vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: rgb(45, 52, 52);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+button {
+    border-style: none;
+    background: rgb(179, 181, 194);
+    height: 1.5rem;
+    width: 5rem;
+    border-radius: 10px;
+    margin: 0 1rem;
+}
+
+.header {
+    display: flex;
+    gap: 2rem;
+    /* margin: 2rem; */
+}
+
+.header a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-bottom: none; */
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    height: 100vh;
+}
+
+.page1 {
+    display: flex;
+    height: 100vh;
+}
+
+.page1 .div1 {
+    width: 70vw;
+    /* height: vh; */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(57, 70, 70);
+    color: aliceblue;
+}
+
+.page1 .div1 .div11 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2rem;
+    display: grid;
+    font-size: x-large;
+    grid-gap: 2rem;
+
+}
+
+/* page 2*/
+
+.container {
+    position: relative;
+    background: rgb(57, 70, 70);
+}
+
+.wrapper {
+    height: 100vh;
+    position: relative;
+}
+
+.page2 {
+    height: 54%;
+    background: rgb(203, 203, 204);
+    display: flex;
+    padding: 10rem;
+    height: 100%;
+    width: 100%;
+    /* background:rgb(203, 203, 204);  */
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5rem;
+    top: 0;
+    left: 0;
+}
+
+.page2 img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+/*  page 4 */
+
+.page4-wrapper {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.page4 {
+    display: flex;
+    width: 80%;
+    background-color: rgb(203, 203, 204);
+    height: 100vh;
+    padding: 3rem 3rem;
+    position: absolute;
+    top: -20vh;
+    z-index: 9;
+    border-radius: 12px;
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.1)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.1));
+}
+
+.div0 {
+    display: grid;
+    column-gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.div0 h3 {
+    margin-bottom: 1rem;
+}
+
+
+
+.page5 {
+    display: grid;
+    background: rgb(57, 70, 70);
+    height: 100vh;
+
+}
+
+.mini {
+    height: 30vh;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.page5 h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+.page5 .div1 {
+    display: flex;
+    justify-content: center;
+}
+
+.w {
+    position: relative;
+    width: 15vw;
+    height: 30vh;
+    margin: 2rem;
+}
+
+.w img {
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+}
+
+.w button {
+    /* margin:10px; */
+    position: absolute;
+    top: 75%;
+    left: 25%;
+}
+
+/* page six*/
+
+.container2 {
+    background: #394646;
+    position: relative;
+    height: 180vh;
+}
+
+.page6 {
+    display: grid;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* top:0;
+    left: 0; */
+    justify-content: center;
+    align-items: center;
+    background: rgb(203, 203, 204);
+}
+
+.page6 h2 {
+    font-size: 2rem;
+}
+
+.page6 .div1 {
+    margin: auto;
+    height: 100%;
+}
+
+
+.page8 {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 2rem;
+    width: 80vw;
+    top: -22vh;
+    left: 10%;
+    border-radius: 20px;
+    background: rgb(203, 203, 204);
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.1)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.1));
+
+}
+
+.page8 h1,
+.div1 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+.page8 .div1 {
+    display: flex;
+}
+
+.page8 .div2 {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10rem;
+}
+
+.page8 .div2 button {
+    justify-items: flex-end;
+    margin: 2rem;
+}
+
+
+/* contact page*/
+
+.contactpage {
+    height: 75vh;
+    background: rgb(203, 203, 204);
+    padding: 2rem;
+
+}
+
+.contactpage h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.con {
+    display: grid;
+    width: 70vw;
+    height: 3rem;
+    margin: 1rem auto;
+    border: none;
+}
+
+.label {
+    margin: 0;
+    padding: 0;
+}
+
+.in {
+    background: rgb(230, 228, 228);
+    border: none;
+    border-radius: 5px;
+}
+
+.contact input {
+    height: 37px;
+}
+
+.lmes {
+    height: 5rem;
+    resize: none;
+}
+
+
+footer {
+    height: 20vh;
+    display: flex;
+    background-color: rgb(45, 52, 52);
+    color: rgb(153, 89, 89);
+    text-align: center;
+    color: rgb(173, 184, 194);
+}
