@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -106,9 +108,13 @@ img {
 }
 
 .page2 img {
-    width: 10rem;
-    height: 10rem;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+}
+
+.page2 .aboutme h2 {
+    margin: 2rem 0;
 }
 
 /*  page 4 */
@@ -134,15 +140,32 @@ img {
 
 .div0 {
     display: flex;
+    flex-direction: column;
     column-gap: 1rem;
     padding: 2rem;
     text-align: center;
     /* background: red; */
+    row-gap: 4rem;
+    margin: 0 auto;
 }
+
+.div222 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.description p {
+    font-family: 'Source Code Pro', monospace;
+}
+
 
 ul {
     list-style-type: none;
+}
 
+ul li {
+    margin: 0.5rem;
 }
 
 .div0 h3 {
@@ -155,7 +178,6 @@ ul {
     display: grid;
     background: rgb(57, 70, 70);
     height: 100vh;
-
 }
 
 .mini {
@@ -174,13 +196,16 @@ ul {
 .page5 .div1 {
     display: flex;
     justify-content: center;
+    color: white;
+
 }
 
 .w {
-    position: relative;
+    /* position: relative; */
     width: 15vw;
     height: 30vh;
-    margin: 2rem;
+    margin: auto;
+    background-color: red;
 }
 
 .w img {
